@@ -5,100 +5,99 @@ body{
     
 }
 
-.AluraLogo{
-    padding-bottom: 10px;
+.logo_alura{
+    padding-bottom: 2vh;
 }
 
 header{
     font-family: 'Inter', sans-serif;
-    width: 700px;
-    height: 100px;
+    width: 100vh;
+    height: 15vh;
     font-size: 12px;
-    padding: 20px;
+    padding: 3vh;
 }
 
-main{
+
+.textboxes{
     display: flex;
+    flex-direction: row;
+    justify-content:center
 }
 
-.inputText{
+.textbox{
+    height: 50vh;
+    width: 55vh;
+    margin: .5vh .5vh .5vh .5vh;
+    vertical-align: text-top;
     font-family: 'Inter', sans-serif;
-    height: 300px;
-    width: 400px;
-    left: 240px;
-    top: 168px;
-    border-radius: nullpx;
     background: transparent;
-    border: #D8DFE8;
-    margin-left: 250px;
-    margin-right: 30px;
     font-size: 20px;
     resize: none;
     line-height: 120%;
-    
+    border-color: #042e61;
+    border-radius: 1vh;
 }
 
+.textbox:focus::placeholder{
+    color: transparent;
+}
 
-.buttonEnc{
+.buttons{
+    justify-content: center;
+    display: flex;
+}
+
+.button_copy{
+    margin-left: 65vh;
+    margin-top: .5vh;
+    color: #0A3871;
+    font-weight: 300;
+    background-color: #D8DFE8;
+    border-radius: 24px;
+    font-family: 'Inter', sans-serif;
+    border: 2px solid #0A3871;
+    padding: 3vh;
+}
+
+.button_encript{
     color: white;
     font-weight: 300;
     background-color: #0A3871;
     border-radius: 24px;
     font-family: 'Inter', sans-serif;
     border: 1px solid #0A3871;
-    padding: 15px;
-    margin-left: 250px;
-    margin-right: 10px
+    padding: 3vh;
+    margin-right: 1vh;
+    margin-top: .5vh;
 }
 
-.buttonEnc:hover{
+.button_encript:hover{
     transform: scale(1.1);
     background-color: #042e61;
 }
 
-.buttonDenc{
+.button_decript{
     color: #0A3871;
     font-weight: 300;
     background-color: #D8DFE8;
     border-radius: 24px;
     font-family: 'Inter', sans-serif;
     border: 2px solid #0A3871;
-    padding: 15px;
-    margin-top: 7px
+    padding: 3vh;
+    margin-left: .5vh;
+    margin-top: .5vh;
+
 }
 
-.buttonDenc:hover{
+.button_decript:hover{
     transform: scale(1.1);
     background-color: #c7d5e7;
 }
 
-.displayText{
-    font-family: 'Inter', sans-serif;
-    height: 300px;
-    width: 400px;
-    left: 1000px;
-    top: 40px;
-    border-radius: 10px;
-    background: #FFFFFF;
-    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
-    border: none;
-    font-size: 20px;
-    resize: none;
-}
-
-.copybutton{
-    color: #0A3871;
-    font-weight: 300;
-    background-color: #D8DFE8;
-    border-radius: 24px;
-    font-family: 'Inter', sans-serif;
-    border: 2px solid #0A3871;
-    padding: 15px;
-    margin-top: 7px
-
-}
-
-.copybutton:hover{
+.button_copy:hover{
     transform: scale(1.1);
     background-color: #c7d5e7;
 }
+
+
+

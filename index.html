@@ -14,22 +14,18 @@
 </head>
 <body>
     <header>
-        <img class ="AluraLogo" src="Vector.png" alt="AluraLogo">
-        <p>&#9888; Solo letras minúsculas y sin acentos.</p>
+        <img class="logo_alura" src="Vector.png" alt="AluraLogo">
+        <p>&#9888; El encriptador solo acepta letras minúsculas y sin acentos.</p>
     </header>
     <main>
-        <section>
-            <textarea class="inputText"  cols="30" rows="10" placeholder="Ingresa el texto que deseas Encriptar/Desencriptar."></textarea>
-            <div class="buttons">
-                <button class="buttonEnc" onclick="buttonEncript()">Encriptar</button>
-                <button class="buttonDenc" onclick="buttonDencript()">Desencriptar</button>
-            </div>
+        <section class="textboxes">
+            <textarea class="textbox" id="inputText" placeholder="Ingresa tu texto a encriptar/desencriptar"></textarea>
+            <textarea class="textbox" id="displayText"></textarea>
         </section>
-        <section>
-            <textarea class="displayText" cols="30" rows="10"></textarea>
-            <div class="copy">
-                <button  class="copybutton" onclick="copy()">Copiar</button>
-            </div>  
+        <section class="buttons">
+            <button class="button_encript" onclick="buttonEncript()">Encriptar</button>
+            <button class="button_decript" onclick="buttonDencript()">Desencriptar</button>
+            <button class="button_copy" onclick="copy()">Copiar</button>
         </section>
     </main>
     <script src="script.js"></script>
