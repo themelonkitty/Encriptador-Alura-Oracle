@@ -1,0 +1,68 @@
+
+
+@media only screen and (min-width: 481px) and (max-width:820px){
+
+    header{
+        height: 10em;
+    }
+    .textboxes{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .textbox{
+        margin: 2em 2em 2em 2em;
+        height: 15em;
+        width: 25em;
+    }
+
+    .button_copy{
+        margin-left: 22em;
+    }
+
+    .buttons{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+
+}
+
+@media only screen and (max-width:480px){
+
+    header{
+        height: 8em;
+        width: 26em;
+    }
+
+    .textboxes{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .textbox{
+        height: 15em;
+        width: 14em;
+    }
+
+    .buttons{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .button_copy{
+        margin-left: 5em;
+    }
+    .button_decript{
+        margin-right: 2em;
+        margin-left: -.5em;
+        padding: .5em;
+    }
+    .button_encript{
+        padding: 1.5em;
+    }
+}
